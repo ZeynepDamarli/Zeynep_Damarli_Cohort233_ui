@@ -8,6 +8,7 @@
   color: rgb(15, 14, 14);
   outline: none;
   border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px #888888;
 }
 .form {
   display: flex;
