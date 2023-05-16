@@ -15,22 +15,20 @@
   </head>
   <body>
     <div class="container">
-      <form action="" class="form">
-        <h2>Sign in</h2>
-        <input
-          type="email"
-          name="email"
-          class="input-field"
-          placeholder="username"
-        />
-        <input
-          type="password"
-          name="password"
-          class="input-field"
-          placeholder="password"
-        />
-        <input type="submit" value="Sign in" id="submit" />
-      </form>
+      <div class="form">
+        <div class="title"><h1>Sign In</h1></div>
+        <div class="username">
+          <input id="username_id" submit="text" placeholder="Username" />
+        </div>
+
+        <div class="password">
+          <input id="password_id" type="password" placeholder="Password" />
+        </div>
+
+        <div class="button">
+          <button id="submit" type="submit">Sign In</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
